@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<body lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Imgur Clone | The power of golang</title>
+    <link rel="stylesheet" href="/app.css">
+  </head>
+  <body id="body">
+    <h2>Drag and Drop Images or Paste From Clipboard</h2>
+    <p class="lead">No Plugins <b>Just Javascript & The Power of Golang</b></p>
+
+    <!-- Upload  -->
+    <form id="file-upload-form" class="uploader">
+    <input id="file-upload" type="file" name="fileUpload" accept="image/*" />
+
+    <label for="file-upload" id="file-drag">
+        <img id="file-image" src="#" alt="Preview" class="hidden">
+        <div id="start">
+        <i class="fa fa-download" aria-hidden="true"></i>
+        <div>Select a file or drag here</div>
+        <div id="notimage" class="hidden">Please select an image</div>
+        <span id="file-upload-btn" class="btn btn-primary">Select a file</span>
+        </div>
+        <div id="response" class="hidden">
+        
+        <progress class="progress" id="file-progress" value="0">
+            <span>0</span>%
+        </progress>
+        </div>
+    </label>
+    </form>
+    <div id="messages" class="alert alert-success"></div>
+  </body>
+  <script src="/app.js"></script>
+</html>
