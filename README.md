@@ -1,9 +1,13 @@
 <p align="center">
-<img src="public/logo.png" width="441" alt="Imgur Clone"></a>
+<img src="public/logo.png" width="100" alt="Imgur Clone"></a>
 </p>
 
 <p align="center">
 <b>Imgur clone built in golang and pure javascript.</b>
+</p>
+
+<p align="center">
+<img src="public/778096FF-93FD-4E32-A35D-141C6C8F0A1D.png" width="500" alt="Preview"></a>
 </p>
 
 ## Features
